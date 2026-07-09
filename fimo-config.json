@@ -1,0 +1,33 @@
+{
+  "seo": {
+    "title": "Welcome to your Fimo website",
+    "description": "A default homepage starter for Fimo projects.",
+    "siteName": "test-github",
+    "url": "https://fimo.ai/",
+    "image": "https://fimo.ai/socials/og_cover.png",
+    "favicon": "https://fimo.ai/favicon-orange.svg",
+    "locale": "en_US"
+  },
+  "i18n": {
+    "defaultLocale": "en",
+    "locales": [
+      "en"
+    ],
+    "routing": {
+      "strategy": "path-prefix",
+      "prefixDefaultLocale": false
+    }
+  },
+  "routes": {
+    "home": {
+      "label": "Home",
+      "path": "/",
+      "seo": {
+        "title": "Home",
+        "description": "Welcome"
+      }
+    }
+  },
+  "version": "4",
+  "source": "cli"
+}

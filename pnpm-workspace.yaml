@@ -1,0 +1,10 @@
+# Build approval is handled by Fimo-controlled install commands (`fimo create
+# --install`, sandbox `fimopm install`, and E2E helpers) via scoped pnpm
+# allow-all-builds flags. Do NOT add `allowBuilds` / `onlyBuiltDependencies`
+# here: pnpm refuses to have both an allowlist and allow-all-builds
+# (ERR_PNPM_CONFIG_CONFLICT_BUILT_DEPENDENCIES), which makes sandbox installs
+# fail before the project's `fimo` dep is available.
+
+allowBuilds:
+  esbuild: true
+  fimo: true
