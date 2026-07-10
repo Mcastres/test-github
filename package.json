@@ -21,7 +21,7 @@
     "cmdk": "^1.1.1",
     "date-fns": "^4.1.0",
     "embla-carousel-react": "^8.6.0",
-    "fimo": "file:/Users/max/Projects/fimo/apps/cli",
+    "fimo": "latest",
     "input-otp": "^1.4.2",
     "isbot": "^5",
     "lucide-react": "^0.577.0",

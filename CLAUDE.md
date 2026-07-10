@@ -64,3 +64,6 @@ If a `design.md` file exists at the project root, treat it as the source of trut
 - Follow the typographic scale and weight assignments verbatim.
 
 If `design.md` is absent, fall back to the `frontend-design` skill's guidance.
+
+
+SOME CHANGES
