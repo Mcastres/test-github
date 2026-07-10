@@ -1,5 +1,5 @@
 # Fimo project rules
-itest
+
 This is a Fimo project. Fimo is a content + media + forms + analytics platform for React websites with a CMS dashboard.
 
 ## Working with this project
